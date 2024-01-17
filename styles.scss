@@ -1,0 +1,79 @@
+@import "./node_modules/bootstrap/scss/functions";
+@import "./node_modules/bootstrap/scss/variables";
+@import "./node_modules/bootstrap/scss/variables-dark";
+
+$primary: #5265E1;
+$secondary: #FA5959;
+$success: rgb(28, 35, 76);
+$info: rgb(67, 66, 66);
+
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark,
+);
+
+$nav-tabs-link-active-border-color: $secondary;
+// $nav-link-padding-x: 5rem;
+
+$accordion-button-active-bg: none;
+$accordion-button-focus-box-shadow: none;
+
+
+@import "./node_modules/bootstrap/scss/bootstrap";
+
+.get-it {
+  background-color: #dadada;
+}
+
+.border-dotted {
+  border-top-style: dotted;
+  border-width: thick;
+  border-color: rgb(192, 189, 189);
+}
+
+.background-image{
+  position: absolute;
+  width: 530px;
+  height: 248px;
+  right: -150px;
+  top: 110px;
+  border-radius: 0 0 0 25%;
+  z-index: -1;
+}
+
+.bookmark-manager{
+  position: relative;
+}
+
+.background-image2{
+  position: absolute;
+  width: 530px;
+  height: 330px;
+  left: -210px;
+  top: 80px;
+  border-radius: 0 0 25% 0 ;
+  z-index: -1;
+}
+
+.oneclick{
+  position: relative;
+}
+
+.card-sizing {
+  height: 80%;
+  width: auto;
+}
+
+.second-card {
+  margin-top: 30px;
+}
+
+.third-card {
+  margin-top: 60px;
+}

@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bookmark</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!--Navbar-->
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img src="./images/logo-bookmark.svg" alt="Logo" class="d-inline-block align-text-top"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mb-2 mb-lg-0 ms-auto gap-2 gap-md-5">
+              <li class="nav-item text-center">
+                <a class="nav-link active" aria-current="page" href="#">Features</a>
+              </li>
+              <li class="nav-item text-center">
+                <a class="nav-link active" href="#">Pricing</a>
+              </li>
+              <li class="nav-item text-center">
+                <a class="nav-link active" href="#">Contact</a>
+              </li>
+              <li class="m-auto">
+                <button type="button" class="btn btn-secondary text-white">Login</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!--A Simple Bookmark Manager-->
+      <div class="row gx-5 mt-5 bookmark-manager">
+        <div class="background-image bg-primary"></div>
+        <div class="col-12 col-sm-6 align-self-center introduction order-2 order-md-1">
+          <h2>A Simple Bookmark Manager</h2>
+          <p class="text-black-50">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati nam cupiditate cum sed esse voluptatibus
+            quis ratione ducimus soluta illo. Ut consequatur eos cum nam nisi maxime quidem tenetur dolorum.
+          </p>
+          <div class="d-flex gap-3">
+            <button type="button" class="btn btn-primary">Get it on Chrome</button>
+            <button type="button" class="btn get-it shadow">Get it on Firefox</button>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 intro-image order-1 order-md-2">
+          <img class="img-fluid" src="./images/illustration-hero.svg" alt="image 1" />
+        </div>
+      </div>
+
+      <!--Features-->
+      <div class="row mt-5 pt-5">
+        <div class="col-md-6 offset-md-3 mx-auto text-center">
+          <h4>Features</h4>
+          <p class="text-black-50">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quia nesciunt alias impedit dolor
+            suscipit cupiditate reiciendis, id dolorem animi pariatur minima reprehenderit aspernatur maiores
+            repellendus dicta asperiores porro! Adipisci!
+          </p>
+        </div>
+        <ul class="nav nav-tabs justify-content-evenly" id="myTab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link active text-info border-top-0 border-end-0 border-start-0"
+              id="home-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#home"
+              type="button"
+              role="tab"
+              aria-controls="home"
+              aria-selected="true"
+            >
+              Simple Bookmarking
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link text-info border-top-0 border-end-0 border-start-0"
+              id="profile-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#profile"
+              type="button"
+              role="tab"
+              aria-controls="profile"
+              aria-selected="false"
+            >
+              Profile
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link text-info border-top-0 border-end-0 border-start-0"
+              id="contact-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#contact"
+              type="button"
+              role="tab"
+              aria-controls="contact"
+              aria-selected="false"
+            >
+              Contact
+            </button>
+          </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+          <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+            <!--Bookmark in one click-->
+            <div class="row gx-5 mt-5 oneclick">
+              <div class="background-image2 bg-primary"></div>
+              <div class="col-12 col-sm-6">
+                <img class="img-fluid" src="./images/illustration-features-tab-1.svg" alt="image 2" />
+              </div>
+              <div class="col-12 col-sm-6 align-self-center">
+                <h4 class="pb-3">Bookmark in one click</h4>
+                <p class="pb-3 text-black-50">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat nesciunt atque quas culpa unde
+                  veritatis, laudantium quod dolor. Sit asperiores deserunt ullam optio debitis adipisci, fuga corrupti
+                  at iste? Est?
+                </p>
+                <button type="button" class="btn btn-primary">More Info</button>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+            <!--Intelligent Search-->
+            <div class="row gx-5 mt-5 oneclick">
+              <div class="background-image2 bg-primary"></div>
+              <div class="col-12 col-sm-6">
+                <img class="img-fluid" src="./images/illustration-features-tab-2.svg" alt="image 2" />
+              </div>
+              <div class="col-12 col-sm-6 align-self-center">
+                <h4 class="pb-3">Intelligent search</h4>
+                <p class="pb-3 text-black-50">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat nesciunt atque quas culpa unde
+                  veritatis, laudantium quod dolor. Sit asperiores deserunt ullam optio debitis adipisci, fuga corrupti
+                  at iste? Est?
+                </p>
+                <button type="button" class="btn btn-primary">More Info</button>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+            <!--Share your Bookmarks-->
+            <div class="row gx-5 mt-5 oneclick">
+              <div class="background-image2 bg-primary"></div>
+              <div class="col-12 col-sm-6">
+                <img class="img-fluid" src="./images/illustration-features-tab-3.svg" alt="image 2" />
+              </div>
+              <div class="col-12 col-sm-6 align-self-center">
+                <h4 class="pb-3">Share your bookmarks</h4>
+                <p class="pb-3 text-black-50">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat nesciunt atque quas culpa unde
+                  veritatis, laudantium quod dolor. Sit asperiores deserunt ullam optio debitis adipisci, fuga corrupti
+                  at iste? Est?
+                </p>
+                <button type="button" class="btn btn-primary">More Info</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Download the extension-->
+      <div class="row mt-5 pt-5">
+        <div class="col-md-6 offset-md-3 mx-auto text-center">
+          <h4 class="pb-3">Download the extension</h4>
+          <p class="pb-3 text-black-50">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non ullam excepturi perspiciatis porro consequatur
+            beatae ratione laborum velit quam nobis quo modi animi, qui magnam? Ratione accusamus eaque dolorum nobis.
+          </p>
+        </div>
+        <div class="container">
+          <div class="row gx-3 ms-md-5 me-md-5">
+            <div class="col-md-4">
+              <div class="card shadow">
+                <img src="./images/logo-chrome.svg" class="card-img-top pt-4 mx-auto card-sizing" alt="logo Chrome" />
+                <div class="card-body text-center">
+                  <h5 class="card-title">Add to Chrome</h5>
+                  <p class="card-text text-black-50">Minimum Version 62</p>
+                  <div class="border-dotted">
+                    <a href="#" class="btn btn-primary mt-3">Add & Install Extension</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 second-card">
+              <div class="col card shadow">
+                <img src="./images/logo-firefox.svg" class="card-img-top pt-4 mx-auto card-sizing" alt="logo firefox" />
+                <div class="card-body text-center">
+                  <h5 class="card-title">Add to Firefox</h5>
+                  <p class="card-text text-black-50">Minimum Version 55</p>
+                  <div class="border-dotted">
+                    <a href="#" class="btn btn-primary mt-3">Add & Install Extension</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 third-card">
+              <div class="col card shadow">
+                <img src="./images/logo-opera.svg" class="card-img-top pt-4 mx-auto card-sizing" alt="logo opera" />
+                <div class="card-body text-center">
+                  <h5 class="card-title">Add to Opera</h5>
+                  <p class="card-text text-black-50">Minimum Version 46</p>
+                  <div class="border-dotted">
+                    <a href="#" class="btn btn-primary mt-3">Add & Install Extension</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--FAQ-->
+      <div class="row mt-5">
+        <div class="col-md-6 offset-md-3 mx-auto text-center">
+          <h4 class="pb-3">Frequently Asked Questions</h4>
+          <p class="pb-3 text-black-50">
+            Non ullam excepturi perspiciatis porro consequatur beatae ratione laborum velit quam nobis quo modi animi.
+          </p>
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseOne"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseOne"
+                >
+                  What is Bookmark?
+                </button>
+              </h2>
+              <div
+                id="flush-collapseOne"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingOne"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body text-start text-info">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, aspernatur saepe, quasi odio
+                  perspiciatis culpa voluptatum repellendus magnam ipsa omnis deserunt! Ducimus excepturi nesciunt
+                  molestias, quia eius possimus veritatis reprehenderit.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseTwo"
+                >
+                  How can I request a new browser?
+                </button>
+              </h2>
+              <div
+                id="flush-collapseTwo"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingTwo"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body text-start text-info">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur nulla eligendi inventore eius
+                  exercitationem, veritatis nam quod eum repudiandae minus asperiores, delectus dolore iusto error
+                  reprehenderit dolorum consequuntur eaque. A!
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseThree"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseThree"
+                >
+                  Is there a mobile app?
+                </button>
+              </h2>
+              <div
+                id="flush-collapseThree"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingThree"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body text-start text-info">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, quod iusto commodi reprehenderit
+                  repellat ad iste veniam soluta sequi eveniet voluptatibus quis earum sunt mollitia accusantium
+                  distinctio? Quisquam, magni ab.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingFour">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseFour"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseFour"
+                >
+                  What about other Chromium browsers?
+                </button>
+              </h2>
+              <div
+                id="flush-collapseFour"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingFour"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body text-start">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolore eligendi rerum alias soluta a
+                  fuga, magnam provident consequuntur dignissimos pariatur praesentium aliquam ducimus! Quis voluptatem
+                  repellendus earum ipsum nostrum!
+                </div>
+              </div>
+            </div>
+          </div>
+          <button type="button" class="btn btn-primary mt-4 mb-5">More Info</button>
+        </div>
+      </div>
+    </div>
+
+    <!--Contact-->
+    <div class="row mt-5 pt-5 pb-5 bg-primary">
+      <div class="col-md-4 offset-md-4 mx-auto text-center position-relative">
+        <p class="text-white">35.000 ALREADY JOINED</p>
+        <h4 class="text-white pb-3">Stay up-to-date with what we're doing</h4>
+        <form class="d-grid gap-2 d-sm-flex needs-validation" novalidate>
+          <input class="form-control" type="email" placeholder="Enter your email address" aria-label="email" required />
+          <button class="btn bg-secondary text-white" type="submit">Search</button>
+          <div class="invalid-tooltip">Please use a valid email address</div>
+        </form>
+      </div>
+    </div>
+
+    <!--Footer-->
+    <footer class="footer">
+      <nav class="navbar navbar-expand-lg bg-success">
+        <div class="container-fluid d-grid d-sm-flex justify-content-center justify-content-sm-around text-center">
+          <a class="navbar-brand" href="#">
+            <img src="./images/logo-bookmark.svg" alt="Logo" class="d-inline-block align-text-top" />
+          </a>
+
+          <div>
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">FEATURES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">PRICING</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+          <div class="d-flex gap-4 justify-content-center">
+            <img src="./images/icon-facebook.svg" alt="logo facebook" />
+            <img src="./images/icon-twitter.svg" alt="logo twitter" />
+          </div>
+        </div>
+      </nav>
+    </footer>
+
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script>
+      //Validation form
+      (function () {
+        "use strict";
+
+        var forms = document.querySelectorAll(".needs-validation");
+
+        Array.prototype.slice.call(forms).forEach(function (form) {
+          form.addEventListener(
+            "submit",
+            function (event) {
+              if (!form.checkValidity()) {
+                event.preventDefault();
+                event.stopPropagation();
+              }
+
+              form.classList.add("was-validated");
+            },
+            false
+          );
+        });
+      })();
+    </script>
+  </body>
+</html>
